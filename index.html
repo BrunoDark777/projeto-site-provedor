@@ -5,76 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="imagens/logo-icone-escuro.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <title>AlfaTech</title>
 </head>
 <body>
 
-TEXTO DO TOPO
 <div class="topo">
     
     <img src="imagens/logo-icone.png" alt="Logo AlfaTech">
 
-        <h1>AlfaTech</h1>
+        <div>
+            <h1>AlfaTech</h1>
+            <p>Soluções em hospedagem</p>
+        </div>
 
-        <p>Soluções em hospedagem</p>
-
-        <div><a href="#informacoes">INFORMAÇÕES</a>
+        <div class="menu">
+             <a href="#informacoes">INFORMAÇÕES</a>
              <a href="#planos">PLANOS</a> 
-             <a href="#precos">PREÇOS</a> 
+             <a href="tabeladeprecos.html">PREÇOS</a> 
              <a href="#contato">CONTATO</a>
         </div>
 </div>
 
  <div class="banner">
-     <p>Simples - Fácil de usar - 10x mais rápido</p>
+     <p class="p1">Simples - Fácil de usar - 10x mais rápido</p>
 
      <h2>O melhor serviço de hospedagem na web para o seu site.</h2>
 
-     <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+     <p class="p2">Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
 
      <img src="imagens/imagem-banner.png" alt="banner">
  </div>
 
-TEXTO DO PRIMEIRO ANUNCIO
-<div class="anuncio">
+<div class="anuncio1" id="planos">
 
     <h2>Hospede o seu site por apenas R$29 por mês.</h2>
     <p>Também temos planos gratuitos. Adquira já o seu.</p>
-    <a href="">TABELA DE PREÇOS</a>
+    <a href="tabeladeprecos.html"><img src="imagens/icone-foguete.png" alt="foguete">TABELA DE PREÇOS</a>
 
 </div>
 
-TEXTO DA SEÇÃO INFORMAÇÕES
 <div class="secao-informacoes" id="informacoes">
     
     <h2>Existem diversos serviços de hospedagem de sites. Porque você deve nos escolher?</h2>
-
-    <img src="imagens/icone-engrenagens.png" alt="">
+    <div>
+        
+        <img src="imagens/icone-engrenagens.png" alt="">
+        <h3>Fácil de configurar</h3>
+        <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...</p>
+    </div>
     
-    1° Informação
-    <h3>Fácil de configurar</h3>
-
-    <img src="imagens/icone-foguete.png" alt="">
-
-    <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...</p>
+    <div>
+        
+        <img src="imagens/cloud-icone.png" alt="">
+        <h3>Servidores 100% Online</h3>
+        <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
+    </div>
     
-    2° Informação
-    <h3>Servidores 100% Online</h3>
-
-    <img src="imagens/cloud-icone.png" alt="">
-
-    <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
-    
-    3° Informação
-    <h3>Suporte 24/7</h3>
-
-    <img src="imagens/icone-suporte.png" alt="">
-
-    <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
+    <div>
+        
+        <img src="imagens/icone-suporte.png" alt="">
+        <h3>Suporte 24/7</h3>
+        <p>Suporte altamente treinado e especializado em soluções de Cloud...</p>
+    </div>
 </div>
 
 TEXTO DA SEÇÃO TABELA DE PREÇOS
-<div class="secao-precos" id="precos">
+<div class="secao-precos">
     
     <h2>Pague somente pelo que for usar. Sem cobranças adicionais!</h2>
     
@@ -127,11 +126,11 @@ TEXTO DO SEGUNDO ANUNCIO
 <div class="anuncio">
     
     <h2>Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h2>
-    <a href="">TABELA DE PREÇOS</a>
+    <a href="tabeladeprecos.html">TABELA DE PREÇOS</a>
 </div>
 
-TEXTO DO RODAPÉ
-<div class="rodape">
+<img src="imagens/logo-icone.png" alt="Logo AlfaTech" title="AlfaTech">
+<div class="rodape" id="contatos">
     
     <h2>AlfaTech</h2>
     <p>Soluções em hospedagem</p>
@@ -139,7 +138,7 @@ TEXTO DO RODAPÉ
     <p>E-mail: suporte@alfatech.com</p>
     <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
     <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
-    <p>Desenvolvido por "nome do aluno"</p>
+    <p>Desenvolvido por <a href="">"Bruno César"</a></p>
 
 </div>
 
