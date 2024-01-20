@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="imagens/logo-icone-escuro.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/logo-icone.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -49,22 +49,22 @@
 
 <div class="secao-informacoes" id="informacoes">
     
-    <h2>Existem diversos serviços de hospedagem de sites. Porque você deve nos escolher?</h2>
-    <div>
+    <h2>Existem diversos serviços de hospedagem de sites. Porque você deve <span>nos escolher?</span></h2>
+    <div class="div1">
         
         <img src="imagens/icone-engrenagens.png" alt="">
         <h3>Fácil de configurar</h3>
         <p>Facilmente configurável em plataformas CMS populares - Wordpress, Joomia ...</p>
     </div>
     
-    <div>
+    <div class="div2">
         
         <img src="imagens/cloud-icone.png" alt="">
         <h3>Servidores 100% Online</h3>
         <p>Serviços que operam 100% do tempo para manter o seu site online...</p>
     </div>
     
-    <div>
+    <div class="div3">
         
         <img src="imagens/icone-suporte.png" alt="">
         <h3>Suporte 24/7</h3>
@@ -72,73 +72,92 @@
     </div>
 </div>
 
-TEXTO DA SEÇÃO TABELA DE PREÇOS
-<div class="secao-precos">
+<div class="tabela-precos">
     
-    <h2>Pague somente pelo que for usar. Sem cobranças adicionais!</h2>
+    <h2>Pague <span>somente</span> pelo que for usar. Sem cobranças adicionais!</h2>
     
-    Texto da Tabela
     <table>
-        <tr>
-            <h3>PESSOAL</h3>
-            <img src="imagens/pessoal-icone.png" alt="Pessoal">
-            <p>Indicado para uso pessoal</p>
-            <td>1 usuário</td>
-            <td>1 domínio grátis</td>
-            <td>200GB SSD espaço</td>
-            <td>Ofertas especiais</td>
-            <td>Suporte limitado</td>
-        </tr>
-        <tr>
-            <h3>PROFISSIONAL</h3>
-            <img src="imagens/equipe-icone.png" alt="Equipe">
-            <p>Indicado para profissionais de T.I</p>
-            <td>10 usuários</td>
-            <td>2 domínios grátis</td>
-            <td>500GB SSD espaço</td>
-            <td>Ofertas especiais</td>
-            <td>Suporte ilimitado</td>
-        </tr>
-        <tr>
-            <h3>EMPRESARIAL</h3>
-            <img src="imagens/empresa-icone.png" alt="Empresa">
-            <p>Indicado para empresas</p>
-            <td>25 usuários</td>
-            <td>2 domínios grátis</td>
-            <td>1TB SSD espaço</td>
-            <td>Ofertas especiais</td>
-            <td>Suporte ilimitado</td>
-        </tr>
-        <tr>
-            <h3>BIG TECHS</h3>
-            <img src="imagens/big-tech.png" alt="Big Tech">
-            <p>Indicado para grandes empresas</p>
-            <td>50 usuários</td>
-            <td>3 domínios grátis</td>
-            <td>2TB SSD espaço</td>
-            <td>Ofertas especiais</td>
-            <td>Suporte ilimitado</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>
+                    <h3>PESSOAL</h3>
+                    <img src="imagens/pessoal-icone.png" alt="Pessoal">
+                    <p>Indicado para uso pessoal</p>
+                </th>
+                <th>
+                    <h3>PROFISSIONAL</h3>
+                    <img src="imagens/equipe-icone.png" alt="Equipe">
+                    <p>Indicado para profissionais de T.I</p>
+                </th>
+                <th>
+                    <h3>EMPRESARIAL</h3>
+                    <img src="imagens/empresa-icone.png" alt="Empresa">
+                    <p>Indicado para empresas</p>
+                </th>
+                <th>
+                    <h3>BIG TECHS</h3>
+                    <img src="imagens/big-tech.png" alt="Big Tech">
+                    <p>Indicado para grandes empresas</p>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="impar">
+                <td>1 usuário</td>
+                <td>10 usuários</td>
+                <td>25 usuários</td>
+                <td>50 usuários</td>
+            </tr>
+
+            <tr class="par">
+                <td>1 domínio grátis</td>
+                <td>2 domínios grátis</td>
+                <td>2 domínios grátis</td>
+                <td>3 domínios grátis</td>
+            </tr>
+
+            <tr class="impar">
+                <td>200GB SSD espaço</td>
+                <td>500GB SSD espaço</td>
+                <td>1TB SSD espaço</td>
+                <td>2TB SSD espaço</td>
+            </tr>
+
+            <tr class="par">
+                <td>Ofertas especiais</td>
+                <td>Ofertas especiais</td>
+                <td>Ofertas especiais</td>
+                <td>Ofertas especiais</td>
+            </tr>
+
+            <tr class="impar">
+                <td>Suporte limitado</td>
+                <td>Suporte ilimitado</td>
+                <td>Suporte ilimitado</td>
+                <td>Suporte ilimitado</td>
+            </tr>
+        </tbody>
     </table>
 </div>
 
-TEXTO DO SEGUNDO ANUNCIO
-<div class="anuncio">
+<div class="anuncio2">
     
     <h2>Mais de 20.000 pessoas confiam na Spark! Seja um deles você também!</h2>
-    <a href="tabeladeprecos.html">TABELA DE PREÇOS</a>
+    <a href="tabeladeprecos.html"><img src="imagens/icone-foguete.png" alt="">TABELA DE PREÇOS</a>
 </div>
 
-<img src="imagens/logo-icone.png" alt="Logo AlfaTech" title="AlfaTech">
-<div class="rodape" id="contatos">
-    
-    <h2>AlfaTech</h2>
-    <p>Soluções em hospedagem</p>
+
+<div class="rodape" id="contato">
+    <div>
+        <img src="imagens/logo-icone.png" alt="Logo AlfaTech" title="AlfaTech">
+        <h1>AlfaTech</h1>
+        <p>Soluções em hospedagem</p>
+    </div>
     <p>Telefone & Whatsapp: (21) 99999-5555</p>
     <p>E-mail: suporte@alfatech.com</p>
     <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
     <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
-    <p>Desenvolvido por <a href="">"Bruno César"</a></p>
+    <p class="pfinal">Desenvolvido por <a href="https://www.linkedin.com/in/bruno-cesar777/">Bruno César</a></p>
 
 </div>
 
