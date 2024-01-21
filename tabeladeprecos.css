@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topo{
+    background-color: #2f86d6;
+    position: relative;
+    width: 100vw;
+    height: 110px;
+}
+
+.topo div img{
+    width: 60px;
+    margin: 30px 0px 30px 200px;
+}
+
+.topo div h1{
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.topo p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.topo .menu{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.topo .menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+.tabela-de-precos{
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    text-align: center;
+}
+
+.tabela-de-precos table{
+    background-color: #fff;
+    position:absolute;
+    top: 10%;
+    right: 15%;
+}
+
+table thead tr th{
+    background-color: #f1f3f7;
+    padding: 20px;
+}
+
+.celula-escondida{
+    visibility: hidden;
+}
+
+.primeira-celula{
+    background-color: #f1f3f7;
+    padding: 5px;
+}
+
+table tbody{
+    margin: 0;
+}
+
+table tbody tr td {
+    padding: 5px;
+}
+
+table tbody tr, td{
+    border-bottom: 2px solid #f1f3f7;
+    border-right: 2px solid #f1f3f7;
+}
+
+.marcador-azul{
+    margin: 0 auto;
+    border: 5px solid #2f86d6;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+}
+
+.rodape{
+    background-color: #2f86d6;
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.rodape div{
+    position: absolute;
+    height: 100px;
+    top: 5%;
+    left: 25%;
+    right: 15%;
+}
+
+.rodape div img{
+    width: 80px;
+    position: absolute;
+    left: 22%;
+}
+
+.rodape div h1{
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 5%;
+    right: 49%;
+}
+
+.rodape div p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+    position: absolute;
+    top: 36%;
+    right: 41%;
+}
+
+.rodape .p1{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+    right: 25%;
+}
+
+.pfinal{
+    width: 100vw;
+    position: absolute;
+    bottom: 0%;
+    background-color: #f3f1f7;
+    padding: 10px;
+}
+
+.pfinal a{
+    color: #2f86d6;
+    text-decoration: none;
+    font-weight: bold;
+}

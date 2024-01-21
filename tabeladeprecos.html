@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabeladeprecos.css">
     <link rel="shortcut icon" href="imagens/logo-icone.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,30 +19,31 @@
              <h1>AlfaTech</h1>
              <p>Soluções em hospedagem</p>
     </div>
-    <div>
-        <a href="">HOME</a>
-        <a href="">PLANOS</a>
-        <a href="">PREÇOS</a>
-        <a href="">CONTATO</a>
+    <div class="menu">
+        <a href="index.html">HOME</a>
+        <a href="index.html#informacoes">INFORMAÇÕES</a>
+        <a href="index.html#planos">PLANOS</a>
+        <a href="index.html#contato">CONTATO</a>
     </div>
 </div>
-<div>
+<div class="tabela-de-precos">
     <table>
         <thead>
             <tr>
-                <th>
+                <th class="celula-escondida"></th>
+                <th class="celula-cabecalho">
                     <p>PESSOAL</p>
                     <h2>GRÁTIS</h2>
                 </th>
-                <th>
+                <th class="celula-cabecalho">
                     <p>PROFISSIONAL</p>
                     <h2>R$29</h2>
                 </th>
-                <th>
+                <th class="celula-cabecalho">
                     <p>EMPRESARIAL</p>
                     <h2>R$59</h2>
                 </th>
-                <th>
+                <th class="celula-cabecalho">
                     <p>PROFISSIONAL</p>
                     <h2>R$99</h2>
                 </th>
@@ -49,112 +51,122 @@
         </thead>
         <tbody>
             <tr>
-                <td>MONITORAMENTO DE REDE</td>
+                <td class="primeira-celula">MONITORAMENTO DE REDE</td>
                 <td>3 REDES</td>
                 <td>10 REDES</td>
                 <td>20 REDES</td>
-                <td>50 REDES</td>
-                
-                
-                
-                <td>RELATÓRIO DE EMAILS</td>
-                <td>TRANSAÇÃO ILIMITADAS</td>
-                <td>RASTREADOR DE PAGAMENTO</td>
-                <td>EXPORTAÇÃO DE DADOS</td>
-                <td>CONVERSOR DE MOEDA</td>
-                <td>ACESSO A API</td>
-                <td>RESTRIÇÃO DE IP</td>
-                <td>FEED PERSONALIZADO</td>
-                <td>LIMITE DE IMPORTAÇÃO DE DADOS</td>
-                <td>RETENÇÃO DE DADOS</td>
-                <td>SUPORTE</td>
+                <td>50 REDES</td>   
             </tr>
             <tr>
-                <td>DASHBOARD</td>
+                <td class="primeira-celula">DASHBOARD</td>
                 <td>1 DASHBOARD</td>
                 <td>5 DASHBOARDS</td>
                 <td>10 DASHBOARDS</td>
                 <td>25 DASHBOARDS</td>
-                
-                
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>---</td>
-                <td>---</td>
-                <td>---</td>
-                <td>---</td>
-                <td>ÚLTIMO ANO</td>
-                <td>TEMPO DE VIDA</td>
-                <td>EMAIL</td>
             </tr>
             <tr>
-                <td>USUÁRIOS</td>
+                <td class="primeira-celula">USUÁRIOS</td>
                 <td>1 USUÁRIO</td>
                 <td>5 USUÁRIOS</td>
                 <td>10 USUÁRIOS</td>
                 <td>25 USUÁRIOS</td>
-                
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>---</td>
-                <td>---</td>
-                <td>ÚLTIMOS 2 ANOS</td>
-                <td>TEMPO DE VIDA</td>
-                <td>EMAIL & CHAT</td>
             </tr>
             <tr>
-                <td>RELATÓRIO DE ATUALIZAÇÃO</td>
+                <td class="primeira-celula">RELATÓRIO DE ATUALIZAÇÃO</td>
                 <td>TODA HORA</td>
                 <td>A CADA 30 MINUTOS</td>
                 <td>QUASE EM TEMPO REAL</td>
                 <td>TEMPO REAL</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>ÚLTIMOS 3 ANOS</td>
-                <td>TEMPO DE VIDA</td>
-                <td>EMAIL & CHAT</td>
             </tr>
              <tr> 
-                
-                
-                
-                
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>*</td>
-                <td>---</td>
-                <td>---</td>
+                <td class="primeira-celula">RELATÓRIO DE EMAILS</td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">TRANSAÇÃO ILIMITADAS</td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">RASTREADOR DE PAGAMENTO</td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">EXPORTAÇÃO DE DADOS</td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">CONVERSOR DE MOEDA</td>
+                <td></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">ACESSO A API</td>
+                <td></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">RESTRIÇÃO DE IP</td>
+                <td></td>
+                <td></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">FEED PERSONALIZADO</td>
+                <td></td>
+                <td></td>
+                <td><div class="marcador-azul"></div></td>
+                <td><div class="marcador-azul"></div></td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">LIMITE DE IMPORTAÇÃO DE DADOS</td>
+                <td>ÚLTIMO ANO</td>
+                <td>ÚLTIMOS 2 ANOS</td>
                 <td>ÚLTIMOS 3 ANOS</td>
+                <td>ÚLTIMOS 3 ANOS</td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">RETENÇÃO DE DADOS</td>
                 <td>TEMPO DE VIDA</td>
+                <td>TEMPO DE VIDA</td>
+                <td>TEMPO DE VIDA</td>
+                <td>TEMPO DE VIDA</td>
+            </tr>
+            <tr>
+                <td class="primeira-celula">SUPORTE</td>
+                <td>EMAIL</td>
+                <td>EMAIL & CHAT</td>
+                <td>EMAIL & CHAT</td>
                 <td>EMAIL, CHAT & VOICE</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-<div>
+<div class="rodape">
     <div>
         <img src="imagens/logo-icone-escuro.png" alt="Logo AlfaTech" title="AlfaTech">
         <h1>AlfaTech</h1>
         <p>Soluções em hospedagem</p>
     </div>
-    <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
-    <p>Desenvolvido por <a href="" target="_blank">Bruno César</a></p>
+    <p class="p1">© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
+    <p class="pfinal">Desenvolvido por <a href="https://www.linkedin.com/in/bruno-cesar777/" target="_blank">Bruno César</a></p>
 </div>
 </body>
 </html>
